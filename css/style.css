@@ -673,6 +673,7 @@ img{
 
 .modal-window-svg {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-left: 16px;
 }
 
 .modal-window .modal-window-button:hover,
@@ -727,10 +728,12 @@ img{
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-left: 16px;
 }
 
 .modal-window-form-input:focus + .modal-window-form-svg {
     fill: #4d5ae5;
+    margin-left: 16px;
 }
 
 .modal-window-form-comment-div {
@@ -803,7 +806,7 @@ img{
     margin: auto;  
 }
 
-.modal-window-checkbox-input:checked +  .modal-window-checkbox-label .modal-window-checkbox-span {
+.modal-window-checkbox-input:checked  .modal-window-checkbox-label .modal-window-checkbox-span {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
