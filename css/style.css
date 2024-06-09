@@ -569,12 +569,17 @@ img{
 
 }
 
-.form{
+.subscribe-form{
     display: flex;
     gap:24px;
+    margin-bottom:16px;
+    font-weight:500;
+    letter-spacing:0.02em;
+    color:#ffffff;x
+    
 }
 
-.footer .form .label .input{
+.form-container .subscribe-form .label .input{
     width: 264px;
     height: 40px;
     border:1px solid #ffffff;
@@ -588,7 +593,7 @@ img{
     color: #ffffff;
 }
 
-.footer .form .form-button{
+.form-container .subscribe-form .form-button{
     min-width: 165px;
     height: 40px;
     display: flex;
