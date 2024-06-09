@@ -616,6 +616,10 @@ img{
     margin-left: 16px;
 }
 
+.footer-mail-svg {
+    margin-left: 16px;
+}
+
 .modal-window-container{
     position: fixed;
     top: 0;
@@ -798,7 +802,7 @@ img{
     margin: auto;  
 }
 
-.modal-window-checkbox-input:checked + .modal-window-checkbox-label .modal-window-checkbox-span {
+.modal-window-checkbox-input:checked  .modal-window-checkbox-label .modal-window-checkbox-span {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
@@ -809,5 +813,4 @@ img{
     align-items: center;
     justify-content: center;
     fill:transparent;   
-
 }
