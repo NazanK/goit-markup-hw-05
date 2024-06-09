@@ -335,6 +335,7 @@ img{
     align-content: center;
     padding: 12px 12px;
     fill: #f4f4fd;
+    margin-left: 16px;
 }
 
 .social-media-list .social-list .social-link:hover,
