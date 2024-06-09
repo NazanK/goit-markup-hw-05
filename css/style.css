@@ -809,7 +809,7 @@ img{
     margin: auto;  
 }
 
-.modal-window-checkbox-input:checked  .modal-window-checkbox-label .modal-window-checkbox-span {
+.modal-window-checkbox-input .modal-window-checkbox-label .modal-window-checkbox-span {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
